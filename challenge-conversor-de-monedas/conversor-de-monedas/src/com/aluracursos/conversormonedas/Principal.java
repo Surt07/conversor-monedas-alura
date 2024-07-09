@@ -9,6 +9,7 @@ public class Principal {
         Scanner leerDato = new Scanner(System.in);
         Conversor consulta = new Conversor();
         boolean continuar = true;
+        DecimalFormat df = new DecimalFormat("#.00");
 
         while(continuar){
             System.out.println(InterfazDelPrograma.mensajeMenuSeleccion);
@@ -32,10 +33,10 @@ public class Principal {
 
             System.out.println("Resultado de la conversión: " + cantidad +
                     " " + divisa.base_code() + " son " +
-                    (cantidad * divisa.conversion_rate()) +
+                    df.format(cantidad * divisa.conversion_rate()) +
                     " " + divisa.target_code());
 
-            System.out.println("Si desea realizar otra conversion, escriba S)");
+            System.out.println("Si desea realizar otra conversion, escriba S");
             String siguiente = leerDato.next().toUpperCase();
             if (!siguiente.equals("S")){
                 continuar = false;
