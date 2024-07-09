@@ -31,15 +31,17 @@ Chile - Peso Chileno - CLP
 ```
 
 ## Requisitos 📝
-El programa está hecho en java y tambien requiere conexión a internet para conectarse con la api y usar la librería Gson.
+El programa está hecho en java 8 y tambien requiere conexión a internet para conectarse con la api y usar la librería Gson.
 
 ## Como usar 📠
 
 Una vez ejecutada la clase principal del programa, seleccionamos la moneda base, despues la moneda a la que se convertira.
+
 ![Screenshot 2024-07-08 185600](https://github.com/Surt07/conversor-monedas-alura/assets/157921060/07f670c2-432b-4e1f-a22a-2591d63d9239)
 
 Después introducimos la cantidad de la moneda base y el programa nos devolverá el resultado. Si desamos hacer otra conversión simplemente escribimos S
 (el programa distingue entre si es mayuscula o minuscula), el programa terminará si escribimos cualquier otra cosa.
+
 ![Screenshot 2024-07-08 185635](https://github.com/Surt07/conversor-monedas-alura/assets/157921060/61b39db6-ad3c-41a9-8c82-98828b039452)
 
 
