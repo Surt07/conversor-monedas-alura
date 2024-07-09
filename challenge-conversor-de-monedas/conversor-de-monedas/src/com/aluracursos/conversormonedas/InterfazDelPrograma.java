@@ -1,6 +1,6 @@
 package com.aluracursos.conversormonedas;
 
-//Como el menú se terminó bastante grande, decidí crear una clase en específico para guardar los mensajes largos del programa.
+//Como el menú se terminó agrandando bastante, decidí crear una clase en específico para guardar los mensajes largos del programa.
 public class InterfazDelPrograma {
 
     public static final String mensajeMenuSeleccion = """
